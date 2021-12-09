@@ -1,0 +1,68 @@
+body{
+  background-color: blue;
+  background-image: url("../components/loginHome.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-size: 100% 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.input-form{
+  border: 1px solid grey;
+  background-color: rgba(249, 250, 252, 0.76);
+  position:absolute;
+  top: 33%;
+  left: 36%;
+  height: 40%;
+  width: 300px;
+  padding-top: 1%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.login-submit-button{
+  margin-bottom: 2px;
+  background-color: green;
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 85%;
+}
+.login-header{
+  color: white;
+  background-color: green;
+  height: 10%;
+  padding-top: 3%;
+  padding-left: 10%;
+  margin-left: -10px;
+}
+.login-forget-password{
+  color: blue;
+  position: absolute;
+  right: 3%;
+  top: 63%;
+  font-size: 12px;
+}
+.login-form-input{
+  position: absolute;
+  left: 30%;
+}
+.login-signup{
+  height: 100%;
+  width: 100%;
+}
+.eyelogin {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  cursor: pointer;
+}
+.error-message {
+  font-size: 12px;
+  color: red;
+  z-index: 2;
+  /* margin-left: 20px; */
+}
